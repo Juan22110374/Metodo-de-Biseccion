@@ -17,7 +17,14 @@ Con este nuevo intervalo se continúa sucesivamente encerrando la solución en u
 El método de bisección es muy seguro para garantizar convergencia.  Si f es una función continua en el intervalo [a, b] y f(a)f(b) < 0, entonces este método converge a la raíz de f.
 La bisección converge linealmente, por lo cual es un poco lento. Sin embargo, se garantiza la convergencia si f(a) y f(b) tienen distinto signo.
 Si existieran más de una raíz en el intervalo entonces el método sigue siendo convergente pero no resulta tan fácil caracterizar hacia qué raíz converge el método.
+
 ![image](https://github.com/Juan22110374/Metodo-de-Biseccion/assets/136865637/212ee79e-3263-441f-b9dc-c85d4b4481d8)
+
+# Desarrolladores del porgrama...
+
+Juan Diego Arias Hernández  22110374
+
+Jared Rodriguez Jauregui   22110373
 
 # Usando el programa (Manual de usuario)... 
 
@@ -34,11 +41,6 @@ Cuarto paso, el programa dará la raiz aproximada de los interválos puestos.
 
 En caso de tener un valor negativo, nos muestra un mensaje el cual nos dice que el método no es aplicable debido al número negativo. 
 
-# Desarrolladores del porgrama...
-
-Juan Diego Arias Hernández  22110374
-Jared Rodriguez Jauregui   22110373
-
 # Programando... (Manual de desarrollador)
 
 En este caso nosotros empezamos viendo que necesitamos una clase, la cual la llamamos Bisection. En el cual creamos 3 variables privadas a, b y precisión. Y tres métodos.
@@ -49,6 +51,7 @@ En el main tenemos 3 mensajes, el cual les pide el valor de a, b y la precisión
 También tenemos una parte del código el cual nos gráfica todo usando Visual Studio Code, pero necesitas instalar muchas extensiones las cuales no tuvimos las capacidades para realizarlo. 
 
 # El diagrama Plant UML es el siguiente:
+
 ![image](https://github.com/Juan22110374/Metodo-de-Biseccion/assets/136865637/31dc1439-7a85-42a3-ac55-716e6e8f5f35)
 
 
