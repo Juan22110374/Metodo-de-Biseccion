@@ -34,6 +34,11 @@ Cuarto paso, el programa dará la raiz aproximada de los interválos puestos.
 
 En caso de tener un valor negativo, nos muestra un mensaje el cual nos dice que el método no es aplicable debido al número negativo. 
 
+# Desarrolladores del porgrama...
+
+Juan Diego Arias Hernández  22110374
+Jared Rodriguez Jauregui   22110373
+
 # Programando... (Manual de desarrollador)
 
 En este caso nosotros empezamos viendo que necesitamos una clase, la cual la llamamos Bisection. En el cual creamos 3 variables privadas a, b y precisión. Y tres métodos.
