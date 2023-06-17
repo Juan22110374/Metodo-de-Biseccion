@@ -18,3 +18,13 @@ El método de bisección es muy seguro para garantizar convergencia.  Si f es un
 La bisección converge linealmente, por lo cual es un poco lento. Sin embargo, se garantiza la convergencia si f(a) y f(b) tienen distinto signo.
 Si existieran más de una raíz en el intervalo entonces el método sigue siendo convergente pero no resulta tan fácil caracterizar hacia qué raíz converge el método.
 ![image](https://github.com/Juan22110374/Metodo-de-Biseccion/assets/136865637/212ee79e-3263-441f-b9dc-c85d4b4481d8)
+
+# Usando el programa... 
+
+![image](https://github.com/Juan22110374/Metodo-de-Biseccion/assets/136865637/c38a17ae-59a5-4501-823f-1c9e7a063c7f)
+ 
+En este caso, tenemos que poner un valor a, el cual es el extremo izquierdo del intervalo; también un valor b, el cual es el extremo derecho del intervalo; y una precisión deseada. Una vez con esto, nos da la raíz aproximada de los intervalos. 
+
+ ![image](https://github.com/Juan22110374/Metodo-de-Biseccion/assets/136865637/1ac3b603-3132-4f87-bfd2-a7cb68413fc5)
+
+En caso de tener un valor negativo, nos muestra un mensaje el cual nos dice que el método no es aplicable debido al número negativo. 
