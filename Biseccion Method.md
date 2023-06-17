@@ -43,6 +43,10 @@ El otro método es de tipo doublé llamado BisectionMethod, en el cual tenemos l
 En el main tenemos 3 mensajes, el cual les pide el valor de a, b y la precisión que deseamos obtener.  Y nos da el valor aproximado de la raíz. 
 También tenemos una parte del código el cual nos gráfica todo usando Visual Studio Code, pero necesitas instalar muchas extensiones las cuales no tuvimos las capacidades para realizarlo. 
 
+# El diagrama Plant UML es el siguiente:
+![image](https://github.com/Juan22110374/Metodo-de-Biseccion/assets/136865637/31dc1439-7a85-42a3-ac55-716e6e8f5f35)
+
+
 # Concluyendo...
 
 Este programa es una gran inversión para tu negocio, debido a que puedes ver las aproximaciones de las raíces y te ahorra bastante tiempo y posibles confusiones en los cálculos, ya que este programa te los hace automáticamente sin errores, solo introduciendo la ecuación deseada. Además con la aplicación adecuada, el código te grafica el comportamiento de cada raíz que se va obteniendo. Una excelente aplicación, no dude e invierta en nuestro proyecto. Gracias por su atención.
