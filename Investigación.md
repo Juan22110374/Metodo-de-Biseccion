@@ -19,29 +19,6 @@ La bisección converge linealmente, por lo cual es un poco lento. Sin embargo, s
 Si existieran más de una raíz en el intervalo entonces el método sigue siendo convergente pero no resulta tan fácil caracterizar hacia qué raíz converge el método.
 ![image](https://github.com/Juan22110374/Metodo-de-Biseccion/assets/136865637/212ee79e-3263-441f-b9dc-c85d4b4481d8)
 
-# Usando el programa (Manual de usuario)... 
-
-![image](https://github.com/Juan22110374/Metodo-de-Biseccion/assets/136865637/c38a17ae-59a5-4501-823f-1c9e7a063c7f)
- 
-En este caso, tenemos que poner un valor a, el cual es el extremo izquierdo del intervalo; también un valor b, el cual es el extremo derecho del intervalo; y una precisión deseada. Una vez con esto, nos da la raíz aproximada de los intervalos. 
-El usuario deberá:
-Primero, poner un número positivo el cual el interválo empieze en el extremo izquierdo.
-Segundo, poner un segundo número positivo el cual el interválo empieze en el extremo derecho.
-Tercero, poner una precisión de error deseada. 
-Cuarto paso, el programa dará la raiz aproximada de los interválos puestos.
-
- ![image](https://github.com/Juan22110374/Metodo-de-Biseccion/assets/136865637/1ac3b603-3132-4f87-bfd2-a7cb68413fc5)
-
-En caso de tener un valor negativo, nos muestra un mensaje el cual nos dice que el método no es aplicable debido al número negativo. 
-
-# Programando... (Manual de desarrollador)
-
-En este caso nosotros empezamos viendo que necesitamos una clase, la cual la llamamos Bisection. En el cual creamos 3 variables privadas a, b y precisión. Y tres métodos.
-El primer método llamada Bisection, tiene 3 parámetros de tipo doublé (es un tipo de dato numérico que representa números en coma flotante de doble precisión. Se utiliza para almacenar valores decimales con mayor precisión que el tipo float), con las 3 variables creadas previamente se le asignaron nuevos valores.
-El segundo método es de tipo doublé llamado Function con parámetro de tipo doublé, en el cual es la ecuación que vamos a resolver para encontrar su raíz.
-El otro método es de tipo doublé llamado BisectionMethod, en el cual tenemos las funciones que realiza el método de bisección, tenemos un If en el cual multiplica los valores de a * b y este resultado tiene que ser mayor o igual a o, si no es así nos muestra que no se puede realizar el método.  También tenemos un While el cual b menos a tiene que ser mayor o igual a la precisión, en donde tenemos un valor c que es el resultado de la suma de a+b dividido entre 2. Si la función llega a 0, se acaba el método, sino el valor de c se le da a b y se vuelve a realizar la operación. 
-En el main tenemos 3 mensajes, el cual les pide el valor de a, b y la precisión que deseamos obtener.  Y nos da el valor aproximado de la raíz. 
-También tenemos una parte del código el cual nos gráfica todo usando Visual Studio Code, pero necesitas instalar muchas extensiones las cuales no tuvimos las capacidades para realizarlo. 
 
 # Código utilizado
 
