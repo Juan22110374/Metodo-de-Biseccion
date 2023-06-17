@@ -155,3 +155,6 @@ int main() { //empieza el main
     return 0;
 }
 
+# Concluyendo...
+
+Este programa es una gran inversión para tu negocio, debido a que puedes ver las aproximaciones de las raíces y te ahorra bastante tiempo y posibles confusiones en los cálculos, ya que este programa te los hace automáticamente sin errores, solo introduciendo la ecuación deseada. Además con la aplicación adecuada, el código te grafica el comportamiento de cada raíz que se va obteniendo. Una excelente aplicación, no dude e invierta en nuestro proyecto. Gracias por su atención.
